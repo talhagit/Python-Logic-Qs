@@ -19,7 +19,7 @@ find_num(100,150)
 
 
 """Write a program which can compute the factorial of a given numbers.
-The results should be printed in a comma-separated sequence on a single line."""
+"""
 
 def find_fact(number):
     if number==0:
@@ -29,7 +29,7 @@ def find_fact(number):
 print(find_fact(4))
 
 """With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
-Suppose the following input is supplied to the program:
+
 """
 def square(num):
     dic={}
@@ -38,14 +38,13 @@ def square(num):
     print(dic)
         
 square(4)
+"""
 
-"""Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
-Suppose the following input is supplied to the program:
 
 Define a class which has at least two methods:
 getString: to get a string from console input
 printString: to print the string in upper case.
-Also please include simple test function to test the class methods."""
+"""
 
 class InOutString(object):
     def __init__(self):
@@ -85,7 +84,7 @@ def getSR(*args):
 getSR(2,3,4)
         
 """Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
-The numbers obtained should be printed in a comma-separated sequence on a single line.
+
 """
 
 for i in range(1000,2222):
